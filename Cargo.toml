@@ -2,6 +2,17 @@
 name = "impl-new-derive"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "Derive macro for implementing the `new` method for structs"
+homepage = "https://github.com/rust-dd/impl-new-derive.git"
+documentation = "https://docs.rs/stochastic-rs/latest/impl-new-derive/"
+repository = "https://github.com/rust-dd/impl-new-derive.git"
+readme = "README.md"
+keywords = [
+    "proc-macro",
+    "derive",
+    "impl-new",
+]
 
 [dependencies]
 proc-macro2 = "1.0.86"
