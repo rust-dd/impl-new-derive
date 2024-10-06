@@ -15,7 +15,7 @@ The `impl-new-derive` procedural macro generates a `new` constructor for Rust st
 
 ```toml
 [dependencies]
-your_macro_crate_name = "0.1.0"
+impl_new_derive = "0.1.0"
 ```
 
 2. Annotate your struct with `#[derive(ImplNew)]` to automatically generate a `new` constructor.
@@ -23,7 +23,7 @@ your_macro_crate_name = "0.1.0"
 ### Example for a Non-Generic Struct
 
 ```rust
-use your_macro_crate_name::ImplNew;
+use impl_new_derive::ImplNew;
 
 #[derive(ImplNew, Default)]
 struct MyStruct {
@@ -45,7 +45,7 @@ In this example:
 ### Example for a Generic Struct
 
 ```rust
-use your_macro_crate_name::ImplNew;
+use impl_new_derive::ImplNew;
 
 #[derive(ImplNew, Default)]
 struct MyStruct<T> {

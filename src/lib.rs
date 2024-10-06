@@ -1,4 +1,4 @@
-//! # ImplNew Procedural Macro
+//! # impl_new_derive
 //!
 //! `ImplNew` is a Rust procedural macro that automatically generates a constructor (`new` method)
 //! for structs with named fields. It initializes public fields from provided arguments, and private
@@ -16,7 +16,7 @@
 //!
 //! ```toml
 //! [dependencies]
-//! your_macro_crate_name = "0.1.0"
+//! impl_new_derive = "0.1.0"
 //! ```
 //!
 //! Then, annotate your struct with `#[derive(ImplNew)]` to generate the `new` method.
@@ -24,7 +24,7 @@
 //! ### Example for a Non-Generic Struct
 //!
 //! ```rust
-//! use your_macro_crate_name::ImplNew;
+//! use impl_new_derive::ImplNew;
 //!
 //! #[derive(ImplNew, Default)]
 //! struct MyStruct {
@@ -46,7 +46,7 @@
 //! ### Example for a Generic Struct
 //!
 //! ```rust
-//! use your_macro_crate_name::ImplNew;
+//! use impl_new_derive::ImplNew;
 //!
 //! #[derive(ImplNew, Default)]
 //! struct MyStruct<T> {

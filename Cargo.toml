@@ -1,6 +1,6 @@
 [package]
 name = "impl-new-derive"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
 description = "Derive macro for implementing the `new` method for structs"
