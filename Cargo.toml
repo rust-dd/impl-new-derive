@@ -1,11 +1,11 @@
 [package]
 name = "impl-new-derive"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 license = "MIT"
 description = "Derive macro for implementing the `new` method for structs"
 homepage = "https://github.com/rust-dd/impl-new-derive.git"
-documentation = "https://docs.rs/stochastic-rs/latest/impl-new-derive/"
+documentation = "https://docs.rs/impl-new-derive"
 repository = "https://github.com/rust-dd/impl-new-derive.git"
 readme = "README.md"
 keywords = [
